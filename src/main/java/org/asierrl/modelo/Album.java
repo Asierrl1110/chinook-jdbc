@@ -6,6 +6,15 @@ public class Album {
     private String titulo;
     private Artista artista;
 
+    public Album() {
+    }
+
+    public Album(Integer id, String titulo, Artista artista) {
+        this.id = id;
+        this.titulo = titulo;
+        this.artista = artista;
+    }
+
     public Integer getId() {
         return id;
     }
