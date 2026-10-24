@@ -13,6 +13,9 @@ target/
 *.iml
 *.ipr
 
+### IntelliJ IDEA: ignorar toda la carpeta ###
+.idea/
+
 ### Eclipse ###
 .apt_generated
 .classpath
